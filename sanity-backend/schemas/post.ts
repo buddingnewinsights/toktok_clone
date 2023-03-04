@@ -15,9 +15,6 @@ const post = defineType({
       name: 'video',
       title: 'Video',
       type: 'file',
-      options: {
-        hotspot: true,
-      },
     }),
     defineField({
       name: 'userId',
