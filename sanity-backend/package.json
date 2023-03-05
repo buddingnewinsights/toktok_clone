@@ -38,5 +38,13 @@
     "printWidth": 100,
     "bracketSpacing": false,
     "singleQuote": true
+  },
+  "vercel": {
+    "build": {
+      "env": {
+        "SANITY_STUDIO_API_DATASET": "production",
+        "SANITY_STUDIO_API_PROJECT_ID": "gv69ml1p"
+      }
+    }
   }
 }
