@@ -63,10 +63,10 @@ const VideoCard: NextPage<IProps> = ({
   }
 
   return (
-    <div className="flex flex-col border-b-2 border-gray-200 pb-6">
+    <div className="flex flex-col border-b-2 border-gray-200 pb-6 gap-8 py-2">
       <div>
         <div className="flex gap-3 p-2 cursor-pointer font-semibold rounded">
-          <div className="md:w-16 md:h-16 w:10 h-10">
+          <div className="md:w-16 md:h-16 w:10 h-10 flex items-center">
             <Link href={`/profile/${postedBy._id}`}>
               <>
                 <Image
